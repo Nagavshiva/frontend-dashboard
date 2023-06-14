@@ -1,0 +1,198 @@
+.admain-container {
+  position: absolute;
+  top: 43px;
+  left: 200px;
+  width: 1063px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-container {
+  margin-top: 20px;
+  margin-left: 10px;
+  position: relative;
+  .brand {
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttons {
+    display: flex;
+    gap: 7px;
+    
+  }
+}
+
+// ..........ad........//
+.ad-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dadeeb;
+  height: 130px;
+  padding: 10px;
+}
+.ad-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.ad-selection {
+  display: flex;
+  gap: 20px;
+  .ad-select {
+    display: flex;
+    flex-direction: column;
+    width: 173px;
+    height: 33px;
+    padding: 8px 8px 8px 10px;
+  }
+}
+span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 143.87%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: -0.02em;
+  color: #000000;
+  opacity: 0.5;
+}
+h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 143.87%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+// ,,,,,,,,,,,,,,//
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  height: 340px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card-section {
+  height: 340px;
+  width: 340px;
+  background: #ffffff;
+  border: 1px solid #dadeeb;
+}
+.card-percentage {
+  padding-top: 2px;
+  padding-left: 4px;
+  font-weight: lighter;
+  font-size: xx-small;
+  color: #000000;
+}
+.card-icons {
+  width: 10px;
+  height: 12px;
+  font-size: 9px;
+margin-left: 4px;
+  background: #009688;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.left-title {
+  font-weight: bold;
+  font-size: small;
+}
+.card-line {
+  width: 320px;
+  height: 0.5px;
+  margin: auto;
+  margin-top: 10px;
+  background: #dadeeb;
+}
+.right-option {
+  border: none;
+  outline: none;
+}
+
+.card-container {
+  margin: 5px;
+  .card-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-label {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .card-value {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: #000000;
+  }
+}
+
+// ..............mnk..........//
+
+.table-container {
+  background: #ffffff;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  .check-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  th,
+  td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    font-size: 8px; /* Adjust the font size as needed */
+  }
+
+  th {
+    font-weight: bold;
+    background: #ffffff;
+  }
+
+  tr:nth-child(even) {
+    background: #ffffff;
+  }
+
+  .status-icon {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .active {
+    color: green;
+  }
+
+  .inactive {
+    color: red;
+  }
+}
